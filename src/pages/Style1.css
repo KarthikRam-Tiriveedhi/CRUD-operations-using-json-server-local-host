@@ -1,0 +1,87 @@
+/* GitUsers */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #e32c2c;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    background-color: rgba(73, 210, 164, 0.3);
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    background-color: rgba(191, 123, 75, 0.797);
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #af4ca0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9545a0;
+}
+
+caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* FormStyles.css */
+form {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #a3af4c;
+    border-radius: 9px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #8e9a3e; /* Darker shade on hover */
+}
+
+button:hover {
+    background-color: #4592a0;
+}
+
+h1, h3 {
+    text-align: center;
+    color: #333;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
